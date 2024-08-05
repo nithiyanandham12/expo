@@ -317,8 +317,8 @@ st.set_page_config(
 )
 
 # Add markdown for branding
-st.markdown('# :white[SBA INFO SOLUTION]', unsafe_allow_html=True)
-st.markdown('## :white[Search Engine]', unsafe_allow_html=True)
+st.markdown('SBA INFO SOLUTION', unsafe_allow_html=True)
+st.markdown('Search Engine', unsafe_allow_html=True)
 
 # Sidebar content
 st.sidebar.image("sba_info_solutions_logo.jpg", width=200, use_column_width=False)
